@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- /css file link -->
+    <link rel="stylesheet" href="style.css">
+
+   
+
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Krunal Gelot</h1>
+            <h3>And I'm a <span>Software Developer</span></h3>
+            <p>I am a MCA student. I am interested in Web and Software development and also create Android applications.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/krunal-gelot-5a5358276/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Kunal493?tab=repositories" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://leetcode.com/u/Krunal121/" target="_blank"><i class="fa-solid fa-puzzle-piece"></i></a>
+            </div>
+            <!-- Add this code within your header section, before or after other navigation links -->
+            <a href="Krunal Gelot.pdf" target="_blank" download class="btn">Download Resume</a>
+
+            <!-- <a href="#" class="btn">Download CV</a> -->
+        </div>
+        <div class="home-img">
+            <img src="Add your Image" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABout section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="myimage.jpg" height="400" width="350" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>  Me </span></h2>
+            <h3>Software Developer</h3>
+                    <p>Hello! I'm Krunal Gelot, an MCA student at the Department of Computer Science in Gujarat University, where I'm deepening my knowledge and skills in software development and Android applications. I'm driven by a passion for coding and problem-solving, and I’ve had the opportunity to gain practical experience through two internships.</p>
+                    
+                <a href="about.html" class="btn">Read More</a>
+        </div>
+       
+    </section>
+
+    <!-- section  Skill-->
+  
+    <section class="Skill" id="Skill">
+        <h2 class="heading"> My <span>   Skills</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <h3>Soft Skills</h3>
+                <p>Task Prioritization</p>
+                <p>Communication</p>
+                <p>Teamwork</p>
+                <p>Problem Solving</p>
+                <p>Quick Learning</p>
+            </div>
+           
+            <div class="skill-box">
+                <h3>Languages and Frameworks</h3>
+                <p>HTML/CSS ,&nbsp; JavaScript</p>
+                <p>Java ,&nbsp; Python,</p>
+                <p>ASP.NET ,&nbsp; C#</p>
+                <p>Flutter ,&nbsp; Dart</p>
+                <p>Mysql</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Achievements</h3>
+                <p>LeetCode: Solved over 200 problems </p>
+                <p>HackerRank: Problem Solving Basic</p>
+                <p>Great Learning: Programming Basics</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Certifications</h3>
+                <p>TCS ION Career Edge-Young Professional,TCS Youth Employment program</p>
+                <p>Master In-Demand Professional Soft Skills</p>
+                <p>Front End Development - HTML/CSS, Software Testing Tutorial by Great Learning</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section class="Project" id="Project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="Project-container">
+            <div class="Project-box" >
+                    <h3>Olympic Data Analysis</h3>
+                    <a href="https://olympic-analysis-ketaknown.streamlit.app/"><img src="imgoda-1.jpg" height="350" width="400" alt=""></a>
+            </div>
+
+            <div class="Project-box" >
+                <h3>It Service Website</h3>
+                <a href="#"><img src="itservice.jpg" height="350" width="400" alt=""></a>
+            </div>
+
+            <div class="Project-box" >
+                <h3>CricBowled</h3>
+                <a href="#"><img src="cricket.jpg" height="350" width="400" alt=""></a>
+        </div>
+
+        <div class="Project-box" >
+            <h3>Wheather Site</h3>
+            <a href="#"><img src="whether.jpg" height="350" width="400" alt=""></a>
+    </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact<span>  Me!</span></h2>
+
+        <form id="contactForm">
+        
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name*">
+                <input type="email" id="email" placeholder="Email Address*">
+            </div>
+
+            <div class="input-box">
+                <input type="Number" id="number" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subject">
+            </div>
+
+            <textarea cols="30" rows="10" id="message" placeholder="Your Message*"></textarea>
+            <input type="Submit" value="send Message" class="btn">
+            <div class="error-message" id="errorMessage">Email- Not Working Currently, for contact use "kunagelot493@gmail.com" </div>
+       </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2023 by learnnew_thing0 | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        // Initialize EmailJS with your User ID
+        (function() {
+            emailjs.init("eHD_7j7NmArJzvqW_"); // Replace with your actual User ID
+        })();
+    </script> -->
+
+    <!-- <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var number = document.getElementById('number').value;
+            var message = document.getElementById('message').value;
+            var errorMessage = document.getElementById('errorMessage');
+
+            if (!validateEmail(email)) {
+                errorMessage.textContent = "Please enter a valid email address.";
+                return;
+            }
+            if (name.trim() === '') {
+                errorMessage.textContent = "Name cannot be empty.";
+                return;
+            }
+            if (message.trim() === '') {
+                errorMessage.textContent = "Message cannot be empty.";
+                return;
+            }
+            else{
+                massage = "Subject : "+ subject + "\n" + message + "\n" +"Phone : "+ number;
+            }
+
+            errorMessage.textContent = "";
+
+            // Prepare the email parameters
+            var templateParams = {
+                from_name: name,
+                to_name: 'Portfolio Owner', // Replace with the actual recipient name
+                message: message,
+            };
+
+            // Send the email using EmailJS
+            emailjs.send('service_o0vpclu', 'template_pgtk416', templateParams, 'eHD_7j7NmArJzvqW_')
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                errorMessage.textContent = "Message sent successfully!";
+                errorMessage.style.color = "green";
+            }, function(error) {
+                console.error('FAILED...', error);
+                errorMessage.textContent = "Failed to send message. Please try again later.";
+            });
+        });
+
+        function validateEmail(email) {
+            var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+    </script> -->
+    
+</body>
+</html>
